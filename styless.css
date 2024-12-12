@@ -1,0 +1,65 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image : url("SMAN-1-Sumenep.jpg");
+    background-size: cover;
+    color: #ffffff;
+}
+
+header {
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 1.5em;
+}
+
+header h2 {
+    font-size: 2em;
+    margin-top: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.image-container img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu button {
+    width: 150px;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: white;
+    border: 2px solid #69076b;
+    border-radius: 5px;
+    font-size: 1em;
+    color:#69076b;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    background-color:#69076b;
+    color: white;
+}
